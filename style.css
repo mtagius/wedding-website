@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Better Grade";
+    src: url('../fonts/BetterGrade-519DV.ttf');
+}
+
+html {
+    background-color: #1a1d1dff;
+    color: #e6c4d6ff;
+}
+
+.slide {
+
+    text-align: center;
+    font-weight: normal;
+}
+
+.title-slide {
+    font-family: "Better Grade";
+    font-size: 10em;
+    justify-content: center;
+    text-align: center;
+    top: 40vh;
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40vw;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.star {}
+
+@media only screen and (max-width: 500px) {
+    .title-slide {
+        top: 30vh;
+    }
+}
