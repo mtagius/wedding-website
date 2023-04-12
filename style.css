@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Better Grade";
-    src: url('../fonts/BetterGrade-519DV.ttf');
+    src: url('/fonts/BetterGrade-519DV.ttf');
 }
 
 @font-face {
     font-family: "Old Style Italic";
-    src: url('../fonts/OLDSIH__.TTF');
+    src: url('/fonts/OLDSIH__.TTF');
 }
 
 html {
