@@ -8,6 +8,25 @@
     src: url('./fonts/OLDSIH__.TTF');
 }
 
+a:link {
+    color: #e6c4d6ff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e6c4d6ff;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:active {
+    color: #e6c4d6ff;
+}
+
 html {
     background-color: #1a1d1dff;
     color: #e6c4d6ff;
@@ -25,7 +44,7 @@ html {
 }
 
 .content div {
-    margin-bottom: 50vh;
+    margin-bottom: 25vh;
 }
 
 .title {
@@ -38,12 +57,30 @@ html {
 
 .moons {
     width: 100%;
+    margin-bottom: 50vh !important;
 }
 
 .moons img {
     display: block;
     margin: auto;
     width: 70%;
+}
+
+.matt-and-makeda {
+    width: 60%;
+    border-radius: 100%;
+    border: outset;
+    border-color: #e6c4d6ff;
+    margin-bottom: 100px;
+}
+
+nav {
+    margin-bottom: 100px;
+    font-size: 35px;
+}
+
+div span {
+    display: block;
 }
 
 .background {
@@ -59,8 +96,13 @@ html {
     .title {
         font-size: 200px;
     }
+
     .content {
         font-size: 40px;
+    }
+
+    div span {
+        font-size: 60px;
     }
 }
 
@@ -68,8 +110,13 @@ html {
     .title {
         font-size: 150px;
     }
+
     .content {
         font-size: 30px;
+    }
+
+    div span {
+        font-size: 50px;
     }
 }
 
@@ -77,8 +124,25 @@ html {
     .title {
         font-size: 100px;
     }
+
     .content {
         font-size: 20px;
+    }
+
+    div span {
+        font-size: 40px;
+    }
+
+    .content div {
+        margin-bottom: 15vh;
+    }
+
+    nav {
+        font-size: 30px;
+    }
+
+    .matt-and-makeda {
+        width: 100%;
     }
 }
 
@@ -86,7 +150,16 @@ html {
     .title {
         font-size: 75px;
     }
+
     .content {
         font-size: 20px;
+    }
+
+    div span {
+        font-size: 40px;
+    }
+
+    .content div {
+        margin-bottom: 5vh;
     }
 }
