@@ -10,13 +10,11 @@ function randomNumber(min, max) {
 function generateBackground() {
     background = document.getElementById("background");
     var skews = [
-        [0, 20, 0, 93],
-        [80, 93, 0, 93],
-        [0, 93, 0, 20],
-        [0, 93, 80, 93]];
-    for (i = 0; i < 100; i++) {
+        [0, 93, 0, 15],
+        [0, 93, 80, 95]];
+    for (i = 0; i < 50; i++) {
         star = document.createElement("img");
-        skew = randomNumber(0, 3);
+        skew = randomNumber(0, 1);
         topPos = randomNumber(skews[skew][0], skews[skew][1]);
         leftPos = randomNumber(skews[skew][2], skews[skew][3]);
         star.style = 'top:' + topPos + '%;'
