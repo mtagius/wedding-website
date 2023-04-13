@@ -1,6 +1,18 @@
 window.onload = function () {
     generateBackground();
+
+    changePic(1);
 };
+
+function changePic(counter) {
+    if (counter == 6) {
+        counter = 1;
+    }
+
+    document.getElementById("matt-and-makeda").src = "img/matt-and-makeda-" + counter + ".png";
+
+    setTimeout(changePic, 4000, ++counter)
+}
 
 function randomNumber(min, max) {
     max++;
