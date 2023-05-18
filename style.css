@@ -97,6 +97,11 @@ div span {
     padding-left: 20%;
 }
 
+div>a {
+    text-decoration: underline !important;
+    text-underline-offset: 10px;
+}
+
 @media only screen and (max-width: 2500px) {
     .title {
         font-size: 200px;
@@ -148,6 +153,10 @@ div span {
 
     .matt-and-makeda {
         width: 100%;
+    }
+
+    div>a {
+        text-underline-offset: 7px;
     }
 }
 
