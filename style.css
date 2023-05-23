@@ -176,4 +176,8 @@ div>a {
     .content div {
         margin-bottom: 5vh;
     }
+
+    nav {
+        font-size: 20px;
+    }
 }
