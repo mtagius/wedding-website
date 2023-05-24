@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: "Old Style Italic";
-    src: url('./fonts/OLDSIH__.TTF');
+    font-family: "ShineTypewriter";
+    src: url('./fonts/ShineTypewriter-lgwzd.TTF');
 }
 
 a:link {
@@ -38,13 +38,14 @@ html {
     width: 60%;
     position: relative;
     padding-top: 30vh;
-    font-family: "Old Style Italic";
+    font-family: "ShineTypewriter";
     text-align: center;
     font-size: 16px;
 }
 
 .content div {
     margin-bottom: 25vh;
+    line-height: 145%;
 }
 
 .title {
@@ -79,8 +80,9 @@ nav {
     font-size: 35px;
 }
 
-div span {
+div > span {
     display: block;
+    margin-bottom: 10px;
 }
 
 .background {
@@ -97,6 +99,10 @@ div span {
     padding-left: 20%;
 }
 
+#schedule ul li span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 div>a {
     text-decoration: underline !important;
     text-underline-offset: 10px;
@@ -111,7 +117,7 @@ div>a {
         font-size: 40px;
     }
 
-    div span {
+    div > span {
         font-size: 60px;
     }
 }
@@ -125,7 +131,7 @@ div>a {
         font-size: 30px;
     }
 
-    div span {
+    div > span {
         font-size: 50px;
     }
 }
@@ -139,7 +145,7 @@ div>a {
         font-size: 20px;
     }
 
-    div span {
+    div > span {
         font-size: 40px;
     }
 
@@ -169,7 +175,7 @@ div>a {
         font-size: 20px;
     }
 
-    div span {
+    div > span {
         font-size: 40px;
     }
 
