@@ -80,6 +80,29 @@ nav {
     font-size: 35px;
 }
 
+.collapsible{
+    color: #e6c4d6ff;
+    background-color: #1a1d1dff;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: "ShineTypewriter";
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border: none;
+}
+
+.faq{
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: none;
+    overflow: hidden;
+    margin: 0%;
+}
+
+
 div > span {
     display: block;
     margin-bottom: 10px;
