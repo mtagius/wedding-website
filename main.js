@@ -1,6 +1,5 @@
 window.onload = function () {
     generateBackground();
-    faq_collapse();
 
     changePic(1);
 };
@@ -43,20 +42,5 @@ function generateBackground() {
         star.width = size
         star.hight = size
         background.appendChild(star);
-    }
-}
-
-function faq_collapse(){
-    question = document.getElementsByClassName("collapsible");
-    for (i = 0; i < question.length; i++){
-        question[i].addEventListener("click", function(){
-            this.classList.toggle("active");
-            content = this.nextElementSibling;
-            if (content.style.display === "block"){
-                content.style.display = "none";
-            } else{
-                content.style.display = "block"
-            }
-        });
     }
 }
