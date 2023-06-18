@@ -104,6 +104,19 @@ div > span {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#hotels{
+    font-size: 25px;
+}
+
+#hotels p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: normal;
+}
+
 #faq {
     text-align: left;
 }
