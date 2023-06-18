@@ -127,6 +127,10 @@ div a {
     text-underline-offset: 10px;
 }
 
+nav > a {
+    text-decoration: none !important;
+}
+
 #faq a {
     text-decoration: underline !important;
     text-underline-offset: 6px; 
