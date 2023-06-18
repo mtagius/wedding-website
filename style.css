@@ -122,13 +122,9 @@ div > span {
     line-height: normal;
 }
 
-div a {
+div > a {
     text-decoration: underline !important;
     text-underline-offset: 10px;
-}
-
-nav > a {
-    text-decoration: none !important;
 }
 
 #faq a {
