@@ -1,3 +1,15 @@
+/*
+                _
+         mMm  _[_]_
+        /(_)\  (_)
+       //)^(\\//:\\
+      /(/&@&\)\|~|/
+     / /-~`~-\ |||
+     `/       \|||
+     `--------'-'--
+ flag{Matt-&-Makeda-2023}
+*/
+
 window.onload = function () {
     generateBackground();
 
