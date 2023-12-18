@@ -81,7 +81,7 @@ nav {
 }
 
 
-div > span {
+div>span {
     display: block;
     margin-bottom: 10px;
 }
@@ -104,22 +104,10 @@ div > span {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#hotels{
-    font-size: 25px;
-}
-
-#hotels p{
-    font-size: 15px;
-    margin-bottom: 30px;
-    margin-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    line-height: normal;
-}
-
-#hotels a{
-    text-decoration: underline !important;
-    text-underline-offset: 6px;
+#first-look {
+    width: 95%;
+    border-radius: 20px;
+    margin-bottom: 15px;
 }
 
 #faq {
@@ -140,14 +128,14 @@ div > span {
     line-height: normal;
 }
 
-div > a {
+div>a {
     text-decoration: underline !important;
     text-underline-offset: 10px;
 }
 
 #faq a {
     text-decoration: underline !important;
-    text-underline-offset: 6px; 
+    text-underline-offset: 6px;
 }
 
 @media only screen and (max-width: 2500px) {
@@ -159,7 +147,7 @@ div > a {
         font-size: 40px;
     }
 
-    div > span {
+    div>span {
         font-size: 60px;
     }
 }
@@ -173,7 +161,7 @@ div > a {
         font-size: 30px;
     }
 
-    div > span {
+    div>span {
         font-size: 50px;
     }
 }
@@ -187,7 +175,7 @@ div > a {
         font-size: 20px;
     }
 
-    div > span {
+    div>span {
         font-size: 40px;
     }
 
@@ -217,7 +205,7 @@ div > a {
         font-size: 20px;
     }
 
-    div > span {
+    div>span {
         font-size: 40px;
     }
 
@@ -227,5 +215,9 @@ div > a {
 
     nav {
         font-size: 20px;
+    }
+
+    #first-look {
+        display: none;
     }
 }
